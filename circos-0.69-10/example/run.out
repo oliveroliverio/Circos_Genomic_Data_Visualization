@@ -1,0 +1,11 @@
+
+*** REQUIRED MODULE(S) MISSING OR OUT-OF-DATE ***
+
+You are missing one or more Perl modules, require newer versions, or some modules failed to load. Use CPAN to install it as described in this tutorial
+
+http://www.circos.ca/documentation/tutorials/configuration/perl_and_modules
+
+missing GD
+  error Can't load '/home/martink/perl/5.10.0/lib/site_perl/5.10.0/x86_64-linux/auto/GD/GD.so' for module GD: libpng12.so.0: wrong ELF class: ELFCLASS32 at /home/martink/perl/5.10.0/lib/5.10.0/x86_64-linux/DynaLoader.pm line 203. at (eval 33) line 1.Compilation failed in require at (eval 33) line 1.
+missing GD::Polyline
+  error Attempt to reload GD.pm aborted.Compilation failed in require at /home/martink/perl/5.10.0/lib/site_perl/5.10.0/x86_64-linux/GD/Polyline.pm line 45.
